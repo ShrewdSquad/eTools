@@ -1,5 +1,5 @@
 ﻿<template>
-    <div class="navbar bg-base-100 shadow">
+    <div class="navbar bg-base-100 rounded-lg shadow">
 
         <div class="navbar-start">
             <label for="my-drawer-3" class="btn btn-square btn-ghost">
@@ -10,7 +10,7 @@
         </div>
 
         <div class="navbar-center">
-            <a routerLink="/" class="btn btn-ghost normal-case text-xl">eTools</a>
+            <NuxtLink to="/" class="btn btn-ghost normal-case text-xl">eTools</NuxtLink>
         </div>
 
         <div class="navbar-end">
